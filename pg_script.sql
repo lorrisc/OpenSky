@@ -55,3 +55,4 @@ VALUES
 CREATE INDEX idx_icao24 ON aeronefs (icao24);
 CREATE INDEX idx_lat ON aeronefs (latitude);
 CREATE INDEX idx_lon ON aeronefs (longitude);
+CREATE INDEX idx_id_insertion ON aeronefs (id_insertion);
